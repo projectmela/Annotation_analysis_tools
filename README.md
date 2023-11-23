@@ -105,6 +105,10 @@ dependencies:
   - pandas=1.5.3
   - matplotlib=3.7.2
 ```
+The current data format of the output CSV file of the project is:
+data_fmt: [fn, classid, id, x1, y1, w, h, c=-1, c=-1, c=-1, c=-1]
+The above codes will work only on annotation files with this identical format. 
+
 The codes can take more arguments when called. Type --help to see more options.
 Annotationanalysis can take:
 the location of the annotated file
