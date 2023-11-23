@@ -5,6 +5,7 @@ This code helps in checking the validity and errors of the annotations done thro
 The codes are used to detect and correct the errors that have been identified in the CSV files that have been manually annotated. One code is for the detection of the errors. The end product of running this code will be a text file with details of the error, a CSV file with some errors marked, and graphs. These are explained below. The second code is for the automatic correction of some of the errors created during the annotation (duplicates, class errors) 
 
 # **Annotation Analysis**
+This code finds the error
 # Duplicates error
 This error creates 2 bounding boxes of the same ID in a single frame.
 
