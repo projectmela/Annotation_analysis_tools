@@ -532,21 +532,21 @@ class DataProcessor:
             # Display the plot only if the user provides the --showplot option
             plt.show()
 
+   
     def individualplots(self):
-        
-               """
+
+        """
         Create plots of frame vs area for individuals with an area above 4000
-        
+
         Args:
         df: data frame of the annotation
         unique_individuals_area: dataframe of individuals above 4000
         total_individuals_area: number of individuals above 4000
         csv_file_name: Name of the file
         input_directory: file path
-    
-        
+
         """
-        
+
         if 50 > self.total_individuals_area > 0:
             # Create a single figure to contain all plots
             fig, axes = plt.subplots(len(self.unique_individuals_area), 1, figsize=(20, 8 * len(self.unique_individuals_area)))
